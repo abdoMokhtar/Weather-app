@@ -18,6 +18,11 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   font-family: "Merienda", sans-serif;
+  align-items: flex-start;
+}
+.title {
+  color: white;
+  margin-top: 100px;
 }
 .error {
   display: none;
@@ -148,18 +153,12 @@ input::placeholder {
 }
 @media (max-width: 779px) {
   body {
-    background-image: linear-gradient(
-      135deg,
-      #f7ff0a,
-      #b1f53a,
-      #6ee55b,
-      #0dd276,
-      #00bd8a,
-      #00a795,
-      #008f96,
-      #00778d,
-      #0a607b
-    );
+    display: flex;
+    justify-content: center;
+    background-image: url(images/mobile.jpeg);
+  }
+  .title {
+    font-size: 30px;
   }
   .card {
     width: 310px;
