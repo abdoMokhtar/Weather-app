@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="leon.css">
+    <title>Weather Page</title>
+  </head>
+  <body>
+   
+    <div class="card no flex">
+ 
+      <div class="search flex">
+        <input type="text" placeholder="Enter City Name" />
+        <button> <img src="images/search.png" alt="RElod Page" /></button>
+      </div>  
+          <div class="error">
+      <p> City Name Not Invalid</p>
+    </div>
+      <div class="weather flex">
+         <h1 class="city">Cairo</h1> 
+         <div class="box">  
+          <h2 class="temp flex">22°C</h2> 
+                <img class="change" src="images/clear.png" alt="">
+        
+         </div>
+
+      
+      </div>
+      <div class="info flex">
+        <div class="col flex">
+          <img src="images/humidity.png" alt="">
+        <div>
+          <p class="humidity">22 %</p>
+          <p>
+            Humidity
+          </p>
+      </div>
+    </div>
+        <div class="col flex">
+          <img src="images/wind.png" alt="">
+        <div>
+          <p class="wind">10 Km/h</p>
+          <p>
+            Wind Speed
+          </p>
+      </div>
+    </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
